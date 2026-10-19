@@ -2,21 +2,28 @@
 <p align="center">Muhammad Dhimas Hafizh Fathurrahman - 2311102151</p>
 
 ## Dasar Teori
-isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
+A. Singly Linked List
+Singly linked list adalah struktur data yang digunakan untuk menyimpan kumpulan data yang saling terhubung satu sama lain. Setiap data/node memiliki alamat yang mengarah ke data/node berikutnya. Struktur data ini bersifat dinamis, sehingga data dapat ditambah atau dihapus sesuai kebutuhan [1].
 
-### A. ...<br/>
-...
-#### 1. ...
-#### 2. ...
-#### 3. ...
+Dalam singly linked list, setiap node hanya memiliki satu pointer untuk menunjukkan alamat node selanjutnya. Pointer First digunakan untuk menunjukkan node pertama, sedangkan node terakhir akan menunjuk ke Nil yang menandakan bahwa tidak ada node berikutnya.
 
-### B. ...<br/>
-...
-#### 1. ...
-#### 2. ...
-#### 3. ...
+#### 1. Node (ElmList)
+satu node berisi info untuk data dan next untuk alamat node sesudahnya.
+#### 2. Pointer First dan Nil
+First menunjuk node pertama. Saat First bernilai Nil, list kosong.
+
+### B. Pointer, Alokasi Memori Dinamis, dan ADT<br/>
+Pointer adalah variabel yang digunakan untuk menyimpan alamat memori dari variabel lain [2]. Dalam C++, new digunakan untuk membuat ruang memori baru saat program berjalan, sedangkan delete digunakan untuk menghapus ruang memori yang sudah tidak diperlukan [2]. Pada linked list, keduanya digunakan untuk membuat dan menghapus node.
+
+ADT (Abstract Data Type) adalah konsep yang menggabungkan jenis data dengan operasi yang bisa dilakukan pada data tersebut. Pada modul ini, ADT terdiri dari infotype, address, ElmList, dan List, serta beberapa fungsi dan prosedur untuk mengatur data dalam linked list.
+#### 1. Alokasi dan dealokasi
+alokasi digunakan untuk membuat node baru dengan new, mengisi data pada bagian info, dan mengatur next agar menunjuk ke Nil. Sementara itu, dealokasi digunakan untuk menghapus node yang sudah tidak dibutuhkan menggunakan delete.
+
+#### 2. Penyisipan.
+insertFirst digunakan untuk menambahkan node baru di awal list. Caranya dengan menghubungkan node baru ke node pertama yang lama, kemudian menjadikan node baru sebagai First.
+
+#### 3.Penghapusan.
+deleteFirst digunakan untuk menghapus node pertama, deleteLast untuk menghapus node terakhir, dan deleteAfter untuk menghapus node yang berada setelah node yang ditunjuk oleh Prec.
 
 ## Guided 
 
