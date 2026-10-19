@@ -1,5 +1,5 @@
-# <h1 align="center">Laporan Praktikum Modul 1 - Codeblocks IDE & Pengenalan Bahas C++ (Bagian Pertama)</h1>
-<p align="center">Muhammad Dhimas Hafizh Fathurrahman - 2311102151</p>
+# <h1 align="center">Laporan Praktikum Modul 4 - Singly Linked List</h1>
+<p align="center">Daffa Arief Wicaksono- 109082500192</p>
 
 ## Dasar Teori
 A. Singly Linked List
